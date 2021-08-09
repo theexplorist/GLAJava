@@ -162,7 +162,7 @@ public class Graph {
 			}
 		}
 		
-		//System.out.println(Arrays.toString(indegree));
+		System.out.println(Arrays.toString(indegree));
 		return indegree;
 	}
 	
@@ -198,7 +198,7 @@ public class Graph {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		Graph g = new Graph(7);
+		Graph g = new Graph(4);
 
 //		g.addEdge(1, 2, true);
 //		g.addEdge(1, 4, true);
@@ -211,17 +211,17 @@ public class Graph {
 		
 		//g.dfs(1);
 		//g.connectedComponents();
-		g.addEdge(0, 1, false);
-		g.addEdge(0, 2, false);
-		g.addEdge(2, 3, false);
-		g.addEdge(2, 4, false);
-		g.addEdge(3, 1, false);
-		g.addEdge(4, 6, false);
-		g.addEdge(5, 3, false);
-		g.addEdge(5, 6, false);
-		g.display();
-		g.indegree();
-		g.topologicalSorting();
+//		g.addEdge(0, 1, false);
+//		g.addEdge(0, 2, false);
+//		g.addEdge(2, 3, false);
+//		g.addEdge(2, 4, false);
+//		g.addEdge(3, 1, false);
+//		g.addEdge(4, 6, false);
+//		g.addEdge(5, 3, false);
+//		g.addEdge(5, 6, false);
+//		g.display();
+//		g.indegree();
+//		g.topologicalSorting();
 
 	}
 
